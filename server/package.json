@@ -1,0 +1,31 @@
+{
+  "name": "assgraphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.11.0",
+    "@graphql-tools/merge": "^9.0.6",
+    "@hookform/resolvers": "^3.9.0",
+    "bcrypt": "^5.1.1",
+    "config": "^3.3.12",
+    "dotenv": "^16.4.5",
+    "glob": "^11.0.0",
+    "graphql": "^16.9.0",
+    "graphql-tag": "^2.12.6",
+    "joi": "^17.13.3",
+    "joi-objectid": "^4.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.5.3",
+    "nodemon": "^3.1.4",
+    "react-hook-form": "^7.53.0"
+  }
+}

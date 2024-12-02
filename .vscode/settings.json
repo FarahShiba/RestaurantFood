@@ -1,0 +1,17 @@
+{
+  "editor.quickSuggestionsDelay": 10,
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.inlineSuggest.enabled": true,
+  "editor.acceptSuggestionOnCommitCharacter": true,
+  "editor.suggestSelection": "first",
+  "editor.suggest.snippetsPreventQuickSuggestions": true,
+  "editor.suggest.showStatusBar": false,
+  "editor.suggest.showInlineDetails": true,
+  "codeium.enableInComments": true,
+  "path-intellisense.autoTriggerNextSuggestion": true,
+  "editor.quickSuggestions": {
+    "comments": "inline",
+    "strings": "inline"
+  },
+  "editor.suggest.matchOnWordStartOnly": true
+}

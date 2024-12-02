@@ -1,0 +1,7 @@
+{
+  "appName": "RestaurantFood",
+  "appPrivateKey": "defaultPrivateKey",
+  "db": {
+    "connectionString": "mongodb+srv://tambunanfarahshiba:TtTz8FQVD8ArddEo@restaurantfood.zuogz.mongodb.net/"
+  }
+}

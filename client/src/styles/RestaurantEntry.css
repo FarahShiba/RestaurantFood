@@ -1,0 +1,46 @@
+/* Center the card on the page */
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card-title {
+  color: #6c4b25; /* Dark brown title color */
+  font-weight: bold;
+}
+
+.underline {
+  width: 50px;
+  height: 3px;
+  background-color: #6c4b25; /* Dark brown underline color */
+  margin: 8px auto;
+}
+
+.form-control {
+  border-radius: 8px;
+  border: 1px solid #6c4b25; /* Dark brown border color */
+}
+
+.form-control:focus {
+  border-color: #d4a373; /* Light brown focus color */
+  box-shadow: none;
+}
+
+.btn-primary {
+  background-color: #6c4b25;
+  border-color: #6c4b25;
+}
+
+.btn-primary:hover {
+  background-color: #8b5e3c;
+  border-color: #8b5e3c;
+}
+
+.alert-danger {
+  background-color: #f8d7da;
+  color: #842029;
+  border-color: #f5c2c7;
+  border-radius: 5px;
+}

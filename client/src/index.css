@@ -1,0 +1,78 @@
+/* App.css */
+:root {
+  --dark-brown: #4e342e; /* Replace this with your preferred shade of dark brown */
+}
+
+.text-dark-brown {
+  color: var(--dark-brown) !important;
+}
+
+.header .nav-link,
+.header h1 {
+  color: var(--dark-brown) !important;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo-circle {
+  width: 20px;
+  height: 20px;
+  background-color: var(--dark-brown);
+  border-radius: 50%;
+}
+
+.container-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding-top: 70px;
+}
+
+.card {
+  max-width: 400px;
+  width: 100%;
+}
+
+.underline {
+  width: 50px;
+  height: 3px;
+  background-color: var(--dark-brown);
+  margin: 0 auto;
+}
+
+.btn-primary {
+  background-color: var(--dark-brown) !important;
+  border-color: var(--dark-brown) !important;
+}
+
+.btn-outline-primary {
+  color: var(--dark-brown) !important;
+  border-color: var(--dark-brown) !important;
+}
+
+.text-primary {
+  color: var(--dark-brown) !important;
+}
+
+.nav-link {
+  color: #6d4c41 !important; /* Dark brown shade */
+}
+
+.nav-link:hover {
+  color: var(--dark-brown) !important;
+}
+
+.text-center h2 {
+  color: var(--dark-brown);
+}

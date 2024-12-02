@@ -1,0 +1,6 @@
+{
+  "appName": "RestaurantFood",
+  "db": {
+    "connectionString": "DB_CONNECTION_STRING"
+  }
+}
