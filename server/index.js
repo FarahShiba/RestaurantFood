@@ -1,6 +1,6 @@
 const { ApolloServer } = require("@apollo/server"); // app
-// const { startStandaloneServer } = require("@apollo/server/standalone");
-const { startServerAndCreateNextHandler } = require("@as-integrations/next");
+const { startStandaloneServer } = require("@apollo/server/standalone");
+// const { startServerAndCreateNextHandler } = require("@as-integrations/next");
 const glob = require("glob");
 const { mergeResolvers, mergeTypeDefs } = require("@graphql-tools/merge");
 const jwt = require("jsonwebtoken");
@@ -43,7 +43,7 @@ async function startServer() {
 
   connection(dbConnectionString + "restaurants"); //connected to mongodb and then making this connection (1b)
 
-  const { url } = await startServerAndCreateNextHandler(server, {
+  const { url } = await startStandaloneServer(server, {
     listen: { port: 4005 },
     context: async function ({ req, res }) {
       try {
