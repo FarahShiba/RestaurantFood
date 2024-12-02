@@ -1,6 +1,6 @@
 const { Restaurant, validateRestaurant } = require("../../models/restaurant");
 const { User } = require("../../models/user");
-const { GraphQLError } = require("graphql");
+const { GraphQLError } = require("graphql"); //graphql error
 
 const resolversRestaurant = {
   Query: {
