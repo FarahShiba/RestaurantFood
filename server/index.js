@@ -1,4 +1,4 @@
-const { ApolloServer } = require("@apollo/server");
+const { ApolloServer } = require("@apollo/server"); //import from Apollo server
 const { startStandaloneServer } = require("@apollo/server/standalone");
 // const { startServerAndCreateNextHandler } = require("@as-integrations/next");
 const glob = require("glob");
