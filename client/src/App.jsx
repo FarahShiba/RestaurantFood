@@ -15,8 +15,12 @@ import { create } from "lodash";
 
 //after that create an instance of Apollo Client
 const client = new ApolloClient({
-  uri: "http://localhost:4005/graphql",
-  cache: new InMemoryCache(),
+  // uri: "http://localhost:4005/graphql",
+  // cache: new InMemoryCache(),
+  uri:
+    process.env.NODE_ENV === "production"
+      ? "https://restaurantfood.onrender.com/graphql" // Deployed backend
+      : "http://localhost:4005/graphql", // Local backend for development
 });
 
 const App = () => {
