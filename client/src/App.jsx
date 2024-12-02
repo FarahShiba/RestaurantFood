@@ -11,7 +11,7 @@ import RestaurantsList from "./pages/RestaurantList.jsx";
 import RestaurantEntryEdit from "./pages/RestaurantEntryEdit.jsx";
 import Login from "./pages/Login.jsx";
 import SignUp from "./pages/SignUp.jsx";
-import { create } from "lodash";
+import { create } from "lodash"; //lodash
 
 //after that create an instance of Apollo Client
 const client = new ApolloClient({
@@ -21,6 +21,7 @@ const client = new ApolloClient({
     process.env.NODE_ENV === "production"
       ? "https://restaurantfood.onrender.com/graphql" // Deployed backend
       : "http://localhost:4005/graphql", // Local backend for development
+  cache: new InMemoryCache(),
 });
 
 const App = () => {
